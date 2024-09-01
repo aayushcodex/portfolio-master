@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="flex my-4 gap-x-3 mx-3">
             <a
               className=" hover:bg-white border hover:border-zinc-500 border-white px-2 py-2 hover:text-black hover:border rounded-lg bg-black transition-all text-white"
-              href="tel:+917877606129"
+              href="tel:+919928216803"
             >
               Contact Me
             </a>
