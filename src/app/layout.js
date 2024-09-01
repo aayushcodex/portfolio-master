@@ -3,8 +3,8 @@ import "./globals.css";
 import Head from 'next/head';
 
 export const metadata = {
-  title: "Portfolio | Saurabh Soni",
-  description: "This is Saurabh Soni's Portfolio",
+  title: "Portfolio | Ayush Saha",
+  description: "This is Ayush Saha's Portfolio",
   icons:{
     icon:"https://ibb.co/VJWXmNT",
     apple:"https://ibb.co/VJWXmNT"
