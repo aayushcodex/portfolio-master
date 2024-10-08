@@ -35,11 +35,15 @@ export const Header = () => {
     ];
 
     return (
-      <header className="items-center navbar fixed top-0 left-0 z-50 h-[10vh] backdrop-blur-sm gap-2 flex justify-between">
+      <header
+        style={{ marginRight: "40px" }}
+        className="items-center navbar fixed top-0 left-0 z-50 h-[10vh] backdrop-blur-sm gap-2 flex justify-between"
+      >
         <div className="flex items-center">
-          <a className="text-xl flex items-center font-bold mx-2 h-10 w-auto">
+          <a className="text-xl flex items-center font-bold mx-2 h-20 w-auto">
             <img
-              className="h-10 w-auto"
+              style={{ height: "80px" }}
+              className="!h-20"
               src={"https://i.ibb.co/6y1p9mq/A-logo.png"}
               alt="Logo"
             />
@@ -59,7 +63,7 @@ export const Header = () => {
             </li>
           ))}
         </ul>
-        <div className="flex flex-col bg-zinc-900 hover:bg-white transition-all mr-2 h-[90%] w-auto px-2 py-1 group-hover rounded-lg tracking-tight justify-center items-center">
+        <div className="flex flex-col bg-zinc-900 hover:bg-white transition-all mr-10 h-[90%] w-auto px-2 py-1 group-hover rounded-lg tracking-tight justify-center items-center">
           <a href="https://docs.google.com/document/d/1P14KTw8cDN0xF1IAomYbJd6OuVSKVSY35Y2tQCPIiGw/edit?usp=drivesdk">
             <PiFilePdfFill className="text-white hover:text-black text-3xl" />
           </a>
